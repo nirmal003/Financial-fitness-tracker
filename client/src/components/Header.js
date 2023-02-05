@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <h2 className="text-center">
       <img src={logo} alt="logo" className="vertial-align-bottom " />
-      Expense tracker
+      Financial Fitness Tracker
     </h2>
   );
 };
