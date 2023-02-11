@@ -2,7 +2,6 @@ import TextField from "@material-ui/core/TextField";
 import Alert from "@material-ui/lab/Alert";
 import React, { useContext, useState } from "react";
 import { GlobalContext } from "../context/GlobalState";
-// import '../App1.css';
 
 export const AddTransaction = () => {
   const [text, setText] = useState("");
